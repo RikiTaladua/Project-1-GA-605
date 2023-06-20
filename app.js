@@ -97,3 +97,6 @@ retryButton.addEventListener("click", function() {
     });
   });
   
+
+// Start of game
+let remainingGuesses = 6;
