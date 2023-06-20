@@ -24,3 +24,4 @@ for (let i = 0; i < word.length; i++) {
 
 // Display the word as underscores
 wordElement.textContent = wordArray.join(" ");
+
