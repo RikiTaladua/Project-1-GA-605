@@ -95,6 +95,7 @@ retryButton.addEventListener("click", function () {
       button.removeAttribute("disabled"); // Remove the disabled attribute
       button.classList.remove("correct", "dark", "used");
     });
+    wrongGuesses = 0; // Reset wrong guesses count
   });
   
 
