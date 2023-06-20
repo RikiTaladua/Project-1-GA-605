@@ -8,3 +8,12 @@
     --accent-dark: rgb(86, 32, 4);
     --accent-light: green;
 }
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image: url("the-simpsons-homer-simpson-face-minimalism-rqsmebqkjx8zn6c1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
