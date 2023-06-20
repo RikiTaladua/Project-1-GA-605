@@ -100,3 +100,11 @@ retryButton.addEventListener("click", function() {
 
 // Start of game
 let remainingGuesses = 6;
+
+// Function to update the scoreboard
+function updateScoreboard() {
+    scoreboardElement.textContent = `Wins: ${wins} | Losses: ${losses}`;
+  }
+  
+  // Call the updateScoreboard function to display the initial values
+  updateScoreboard();
