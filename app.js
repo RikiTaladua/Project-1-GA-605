@@ -8,3 +8,10 @@ let losses = 0;
 // Choose a random word from the word bank
 let randomIndex = Math.floor(Math.random() * wordBank.length);
 let word = wordBank[randomIndex];
+
+// Select HTML elements
+const wordElement = document.getElementById("word");
+const spaceElement = document.getElementById("space");
+const lettersElement = document.getElementById("letters");
+const retryButton = document.getElementById("retry");
+const scoreboardElement = document.getElementById("scoreboard");
