@@ -77,4 +77,23 @@ lettersElement.addEventListener("click", function(event) {
       }
     }
   }
-});   
+});
+
+// Retry button
+retryButton.addEventListener("click", function() {
+    // Reset game
+    randomIndex = Math.floor(Math.random() * wordBank.length);
+    word = wordBank[randomIndex];
+    wordArray = [];
+    for (let i = 0; i < word.length; i++) {
+      wordArray.push("_");
+    }
+    wordElement.textContent = wordArray.join(" ");
+    wrongGuesses = 0;
+    spaceElement.textContent = "";
+    lettersElement.querySelectorAll("button").forEach(function(button) {
+      button.disabled = false;
+      button.classList.remove("correct", "dark", "used");
+    });
+  });
+  
