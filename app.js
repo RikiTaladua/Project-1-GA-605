@@ -1,5 +1,5 @@
 // Word bank
-const wordBank = ["doughnut", "homer", "bart", "lisa", "marge", "krusty the clown","ned flanders", "milhouse", "moe", "mr burns"];
+const wordBank = ["doughnut","homer simpson", "marge simpson", "bart simpson", "lisa simpson", "maggie simpson", "ned flanders", "maude flanders", "rod flanders", "todd flanders", "mr burns", "smithers", "waylon smithers", "moe szyslak", "barney gumble", "chief wiggum", "ralph wiggum", "apu nahasapeemapetilon", "nelson muntz", "milhouse van houten", "martin prince", "principal skinner", "superintendent chalmers", "patty bouvier", "selma bouvier", "krusty the clown", "sideshow bob", "ned flanders", "nedward flanders jr", "hans moleman", "cletus spuckler", "comic book guy", "abe simpson", "groundskeeper willie", "edna krabappel", "reverend lovejoy", "mayor quimby", "dr hibbert", "lenny leonard", "carl carlson", "snake jailbird", "fat tony", "disco stu", "lionel hutz", "troy mcclure", "duffman", "bumblebee man", "sideshow mel", "kent brockman", "dr nick riviera", "gil gunderson", "judge snyder", "itchy", "scratchy", "kang", "kodos", "mona simpson", "santas little helper"];
 
 // Scoreboard variables
 let wins = 0;
