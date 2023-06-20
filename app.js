@@ -25,3 +25,11 @@ for (let i = 0; i < word.length; i++) {
 // Display the word as underscores
 wordElement.textContent = wordArray.join(" ");
 
+// Keep track of wrong guesses and used letters
+let wrongGuesses = 0;
+const usedLetters = new Set();
+
+// Button clicks
+lettersElement.addEventListener("click", function(event) {
+    if (event.target.tagName === "BUTTON") {
+      const letter = event.target.textContent.toLowerCase();
