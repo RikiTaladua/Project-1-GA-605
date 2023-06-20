@@ -1,5 +1,5 @@
 // Word bank
-const wordBank = ["doughnut", "Homer", "Bart", "Lisa", "Marge", "Krusty the Clown","Ned Flanders", "Milhouse", "Moe", "Mr Burns"];
+const wordBank = ["doughnut", "homer", "bart", "lisa", "marge", "krusty the clown","ned flanders", "milhouse", "moe", "mr burns"];
 
 // Scoreboard variables
 let wins = 0;
@@ -45,7 +45,7 @@ lettersElement.addEventListener("click", function(event) {
 
     event.target.disabled = true;
     if (word.includes(letter)) {
-     // Replace underscores with the guessed letter
+     // Replace underscores with the guessed letter›
      for (let i = 0; i < word.length; i++) {
         if (word[i] === letter) {
           wordArray[i] = letter;
@@ -80,7 +80,7 @@ lettersElement.addEventListener("click", function(event) {
 });
 
 // Retry button
-retryButton.addEventListener("click", function() {
+retryButton.addEventListener("click", function () {
     // Reset game
     randomIndex = Math.floor(Math.random() * wordBank.length);
     word = wordBank[randomIndex];
@@ -89,10 +89,10 @@ retryButton.addEventListener("click", function() {
       wordArray.push("_");
     }
     wordElement.textContent = wordArray.join(" ");
-    wrongGuesses = 0;
+    usedLetters.clear(); // Clear used letters set
     spaceElement.textContent = "";
-    lettersElement.querySelectorAll("button").forEach(function(button) {
-      button.disabled = false;
+    lettersElement.querySelectorAll("button").forEach(function (button) {
+      button.removeAttribute("disabled"); // Remove the disabled attribute
       button.classList.remove("correct", "dark", "used");
     });
   });
