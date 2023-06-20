@@ -5,8 +5,8 @@
 }
 
 :root {
-    --accent-dark: rgb(86, 32, 4);
-    --accent-light: green;
+    --accent-dark: black;
+    --accent-light: white;
 }
 body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -43,8 +43,48 @@ h2 {
 }
 
 #letters {
-    /* display: flex; // deleted! broken alphabet structure 
-    flex-wrap: wrap; */  
     justify-content: center;
     margin: 16px 0;
+}
+#letters button {
+    font-size: 16px;
+    font-weight: bold;
+    width: 48px;
+    height: 48px;
+    margin: 8px;
+    color: black;
+    border: 3px solid grey;
+    border-radius: 6px;
+    outline: none;
+    text-align: center;
+    background-color: #fbd203 ;
+}
+#letters button.used {
+    background-color: gray;
+}
+
+
+#word {
+    font-size: 32px;
+    color: var(--accent-light);
+    letter-spacing: 10px;
+    margin-bottom: 48px;
+}
+
+button.correct {
+    background-color: var(--accent-dark);      
+}
+
+button.dark {
+    background-color: var(--accent-dark);
+}
+
+#retry {
+    font-size: 20px;
+    padding: 12px;
+    font-weight: bold;
+    border: 3px solid black;
+    color: black;
+    border-radius: 5px;
+    margin: 32px 0;
 }
