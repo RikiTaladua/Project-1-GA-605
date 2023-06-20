@@ -15,3 +15,9 @@ const spaceElement = document.getElementById("space");
 const lettersElement = document.getElementById("letters");
 const retryButton = document.getElementById("retry");
 const scoreboardElement = document.getElementById("scoreboard");
+
+// Underscores for the word
+let wordArray = [];
+for (let i = 0; i < word.length; i++) {
+  wordArray.push("_");
+}
