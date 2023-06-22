@@ -109,4 +109,4 @@ function updateScoreboard() {
   
   // Call the updateScoreboard function to display the initial values
   updateScoreboard();
-  //MVP reached
+  
