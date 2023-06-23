@@ -1,4 +1,5 @@
 # Project-1-GA-605 (Browser game)
+## "The Simpsons Hangman" is a browser game that combines the familiar concept of the hangman game with the iconic characters from "The Simpsons" TV show. 
 ## Web Browser Game Screenshot
 
 <img src="Screen Shot 2023-06-22 at 11.08.39 PM.png">
@@ -12,7 +13,7 @@
  1. CSS
  1. HTML
 
-## Installation Instruction
+## Getting Started
 ### View on Google Chrome Browser
 #### https://rikitaladua.github.io/Project-1-GA-605/
 
