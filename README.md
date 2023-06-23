@@ -14,6 +14,7 @@
 
 ## Installation Instruction
 ### View on Google Chrome Browser
+#### https://rikitaladua.github.io/Project-1-GA-605/
 
 ## Next Steps
 1.  Add difficulty settings. (allows players to choose between easy,medium, and hard difficulty)
